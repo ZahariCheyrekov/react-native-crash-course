@@ -21,12 +21,18 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingBottom: 24,
+    borderBottomWidth: 1,
+    borderColor: '#cccccc'
   },
   textInput: {
+    flex: 1,
+    flexDirection: 'row',
     borderWidth: 1,
     borderColor: '#cccccc',
-    width: '80%',
+    width: '70%',
     marginRight: 8,
     padding: 8
   }
