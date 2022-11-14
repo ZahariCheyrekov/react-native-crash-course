@@ -12,7 +12,7 @@ export default function GoalItem({ text, id, onDeleteItem }) {
                     {text}
                 </Text>
             </Pressable>
-        </View >
+        </View>
     );
 }
 
